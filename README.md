@@ -44,3 +44,7 @@ var results = transducers.into([], transform, iterator);
 `collection.iterator([selector], [options])`
 
 Creates an iterator object. Takes the same parameters as `collection.find()`, except `reactive` and `transform` options are currently unsupported.
+
+## License
+
+MIT
