@@ -10,6 +10,7 @@ Mongo.Collection.prototype.iterator = function collectionIterator (selector, opt
   if (options.skip) rawCursor.skip(options.skip);
   if (options.limit) rawCursor.limit(options.limit);
   if (options.sort) rawCursor.sort(options.sort);
+  if (options.batchSize) rawCursor.batchSize(options.batchSize);
 
   return {
     next: function iterate () {

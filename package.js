@@ -1,6 +1,6 @@
 Package.describe({
   name: 'artisonian:collection-iterator',
-  version: '0.1.1',
+  version: '0.1.2',
   // Brief, one-line summary of the package.
   summary: 'Adds a method to Mongo collections which returns an iterator',
   // URL to the Git repository containing the source code for this package.
